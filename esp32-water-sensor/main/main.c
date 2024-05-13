@@ -9,12 +9,12 @@
 #include "nvs_flash.h"
 #include "esp_wifi.h"
 #define DEFAULT_SSID "WIFISSID"
-#define DEFAULT_PWD ""
+#define DEFAULT_PWD "WIFIPASSWORD"
 #define WIFI_MAXIMUM_RETRY 5
 
 
 #include "esp_websocket_client.h"
-#define WS_ADDRESS "WEBSOCKET_ADDRESS"
+#define WS_ADDRESS "ws://<IP_ADDRESS>:<PORT>"
 
 #include "esp_timer.h"
 
